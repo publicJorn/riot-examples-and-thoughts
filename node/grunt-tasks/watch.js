@@ -12,11 +12,6 @@ module.exports = {
     tasks: ['less:dev']
   },
 
-  riot: {
-     files: ['<%= cfg.sourceDir %>/javascripts/components/*.tag'],
-     tasks: ['riot']
-  },
-
   // Reload the browser when these files change
   // Note: It's best to use specific selectors as using wildcards like `**/*` will make the watch task slow
   server: {
@@ -25,10 +20,9 @@ module.exports = {
     },
     files: [
       '<%= cfg.serverDir %>/stylesheets/*.css',
-      '<%= cfg.serverDir %>/javascripts/**/*.js',
+      '<%= cfg.sourceDir %>/javascripts/components/*.tag',
       '<%= cfg.sourceDir %>/javascripts/**/*.js',
-      '<%= cfg.sourceDir %>/*.html',
-      '<%= cfg.sourceDir %>/components/*.tag'
+      '<%= cfg.sourceDir %>/*.html'
     ]
   }
 };

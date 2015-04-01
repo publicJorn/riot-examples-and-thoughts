@@ -26,14 +26,14 @@ module.exports = function(grunt) {
   grunt.registerTask('default', 'Start a dev server with livereload', [
     'clean',
     'connect:dev',
-    'riot',
     'less:dev',
     'watch'
   ]);
 
-  grunt.registerTask('dist', 'Make ready for production', [
-    'clean',
-    'less:dist',
-    'copy:dist'
-  ]);
+  //grunt.registerTask('dist', 'Make ready for production', [
+  //  'clean',
+  //  'riot',
+  //  'less:dist',
+  //  'copy:dist'
+  //]);
 };

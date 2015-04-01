@@ -1,9 +1,8 @@
 module.exports = {
   options: {
-    // template : 'jade',
-    // type : 'coffeescript'
+    //concat: true
   },
-  dev: {
+  dist: {
     expand: true,
     cwd: '<%= cfg.sourceDir %>/javascripts/components',
     src: '**/*.tag',
