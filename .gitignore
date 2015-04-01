@@ -60,3 +60,6 @@ make.js
 
 !.gitmodules
 !.travis.yml
+
+_grunt
+_dist
