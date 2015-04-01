@@ -1,0 +1,22 @@
+{
+  "name": "publicJorn-riot-test",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riot": "^2.0.12"
+  },
+  "devDependencies": {
+    "extend": "^2.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-riot": "0.0.9",
+    "load-grunt-tasks": "^3.1.0",
+    "require-dir": "^0.1.0"
+  }
+}

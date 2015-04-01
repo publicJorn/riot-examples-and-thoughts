@@ -1,0 +1,11 @@
+{
+  "gruntTaskConfig": "node/grunt-tasks",
+  "sourceDir": "src",
+  "assetsDir": "assets",
+  "deployDir": "_dist",
+
+  "serverDir": "_grunt",
+  "serverHostname": "0.0.0.0",
+  "serverPort": 3000,
+  "liveReloadPort": 35729
+}
