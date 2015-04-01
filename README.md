@@ -26,6 +26,7 @@ And further:
 
 
 ## About the framework-less approach
+TLDR; use libraries for specific tasks instead of a large monolithic framework like angular, ember, etc.
 - [the zero framework manifesto](http://bitworking.org/news/2014/05/zero_framework_manifesto) (1461 words)
 - [thoughts about a non-framework toolset (with library suggestions)](https://andywalpole.me/#!/blog/142134/2015-the-end-the-monolithic-javascript-framework) (3134 words)
 - [Ender](http://enderjs.com/) to manage your libraries
