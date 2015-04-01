@@ -1,6 +1,4 @@
 # riot-examples-and-thoughts
-Some riot experiments and my thoughts on riotjs as library
-
 I've read some articles about framework-less front-end development and I must say that I feel drawn to the idea. In short it means, do not use large monolithic frameworks anymore, but use libraries to fulfill specific tasks.
 
 I thought that Riot might be a nice library to fulfill the function of a UI component builder and so I wanted to take it for a spin.
