@@ -4,7 +4,7 @@ I've read some articles about framework-less front-end development and I must sa
 I thought that Riot might be a nice library to fulfill the function of a UI component builder and so I wanted to take it for a spin.
 
 - [Riot website](https://muut.com/riotjs/)
-- [See this project in action](publicjorn.github.io/riot-examples-and-thoughts)
+- [See this project in action](http://publicjorn.github.io/riot-examples-and-thoughts)
  
 ## Conclusions
 
